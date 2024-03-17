@@ -1,0 +1,27 @@
+1.- 
+
+en Javascript existen dos formas principales para declarar strings:
+
+- comillas simples '' 
+- comillas dobles "" 
+ambas crean cadena de texto
+Pero exite la posibilidad de crear lo que se conoce como “template literals”
+ o “template strings” para lo cual basta con encapsular texto entre comillas invertidas: `some text`
+
+______ Concatenar e interpolar cuerdas___________
+Las comillas invertidas nos permite concatenar e interpolar cadenas de modo que nuestro código quede mucho más limpio.
+Estas usan una función agregada en ES2015, llamada plantilla de cadenas de texto o template literals.
+veremos un ej de la sintaxis antigua y la sintaxis nueva con las comillas invertidas:
+
+nombre constante = 'Gerardo'; 
+apellido const = 'Fernández'; 
+teléfono constante = '123 123 123';
+// "Sintaxis antigua"
+const userInfo = 'Información de usuario: ' + nombre + ' ' + apellido + ' ' + teléfono;
+// "Nueva sintaxis"
+const userInfo = `Información del usuario: ${nombre} ${apellido} ${teléfono}`;
+
+como se puede observar, gracias a los template literals tenemos un código mucho más fácil de leer, 
+se caracteriza por conectar múltiples cadenas sin el uso del operador +.
+Nos permite crear cadenas de texto utilizando varias líneas de texto y meter valores dentro de la misma
+ utilizando ${n....}, el cual evalúa ${a....} ${t....} antes de crear la cadena de texto final.

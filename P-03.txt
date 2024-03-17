@@ -1,0 +1,39 @@
+3.-
+________ CARACTERISTICAS DE TIPYSCRIPT____________
+TypeScript proporciona varias características potentes para el desarrollo web moderno que abordan algunas 
+de las limitaciones de JavaScript. Estas características ofrecen una mejor experiencia para el desarrollador 
+y una mejor organización del código. Entre ellas se incluyen:
+
+- Tipado Estático
+    permite especificar los tipos de variables y parámetros de funciones en tiempo de compilación. Esto permite la 
+    detección temprana de errores relacionados con el tipo, haciendo que el código sea más fiable y menos propenso a
+    los bugs.
+- Tipado Opcional
+    puedes elegir especificar tipos para variables y parámetros de funciones o dejar que TypeScript infiera los tipos 
+    automáticamente basándose en el valor asignado.
+- Funciones ES6+
+    Esto permite a los desarrolladores escribir código más limpio y expresivo utilizando características como funciones 
+    de flecha, desestructuración, literales de plantilla, etc., con comprobación de tipos añadida.
+- Organización del Código
+    proporciona soporte integrado para módulos y espacios de nombres para organizar mejor el código. Los módulos permiten 
+    encapsular el código en archivos separados, facilitando la gestión y el mantenimiento de grandes bases de código.
+- Características de la Programación Orientada a Objetos (OOP)
+    admite conceptos de OOP como clases, interfaces y herencia, lo que permite un código estructurado y organizado.
+- Sistema de Tipos Avanzado
+    proporciona un sistema de tipos avanzado que admite genéricos, uniones, intersecciones y mucho más. Estas 
+    características mejoran las capacidades de comprobación estática de tipos de TypeScript, permitiendo a los 
+    desarrolladores escribir código más robusto y expresivo.
+- Compatibilidad con JavaScript
+    typeScript está diseñado para ser un superconjunto de JavaScript, lo que significa que cualquier código JavaScript 
+    válido es también código TypeScript válido. Esto facilita la integración de TypeScript en proyectos JavaScript 
+    existentes sin tener que reescribir todo el código. TypeScript se construye sobre JavaScript, añadiendo tipado 
+    estático opcional y características adicionales, pero aún te permite utilizar código JavaScript tal cual.
+_________DIFERENCIA ENTRE JAVASCRIPT Y TYPEsCRIPT_______
+- Tipificación de Datos: TypeScript ofrece un sistema de tipos estáticos, lo que significa que los tipos de variables
+ son conocidos en el tiempo de compilación. En cambio, JavaScript es de tipificación dinámica, lo que permite mayor 
+ flexibilidad pero puede conducir a errores más difíciles de detectar.
+- Soporte de POO: TypeScript proporciona un soporte más robusto para la Programación Orientada a Objetos, con 
+características como clases, interfaces y herencia. JavaScript también soporta POO, pero de una manera menos 
+tradicional, utilizando prototipos.
+- Errores en Tiempo de Desarrollo: TypeScript es capaz de detectar errores y problemas potenciales en el código durante 
+el tiempo de desarrollo, mientras que en JavaScript, muchos errores solo se hacen evidentes en tiempo de ejecución.
